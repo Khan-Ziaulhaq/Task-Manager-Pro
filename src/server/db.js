@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb://localhost:27017/taskmanager", {
+    await mongoose.connect("mongodb+srv://ziaulibrarkhan:i324gotYB760cf7o@cluster0.utcjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
